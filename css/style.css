@@ -1,10 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  background: #F2F2F2;
+  font-family: 'PT Serif', serif;
+}
+
+a {
+  color: #41b7d8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .header {
-  background-color: #AAAAAA;
+  height: 70px;
+}
+
+.logo {
+  width: 205px;
+  height: 60px;
+  background-color: white;
+  margin: 5px 5px 0 5px;
 }
 
 .header li {
@@ -12,15 +30,189 @@ body {
   padding: 10px;
 }
 
+.header .col-4 p {
+  width: 200px;
+  height: 15px;
+  background-color: #aaaaaa;
+  margin: 50px 0 0 5px;
+}
+
 .menu li {
-  display: inline-block;
+  width: 70px;
+  height: 60px;
+  margin: -10px 0 0 0;
+  background-color: white;
+}
+
+.connect {
+  margin: 45px 0 0 50px;
 }
 
 .connect li {
-  display: inline-block;
+  background-color: #aaaaaa;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
 }
 
 .detail li {
   display: inline-block;
-  padding-left: 20px;
+}
+
+.search .col-8 {
+  height: 38px;
+  width: 280px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.search .col-2 {
+  background-color: #aaaaaa;
+  width: 70px;
+  height: 38px;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-left: -5px;
+}
+
+.left {
+  background-color: white;
+  margin: 0 5px 0 5px;
+  padding: 10px 0 10px 0;
+  height: 1230px;
+}
+
+li {
+  list-style: none;
+}
+
+.tag{
+  margin: 15px 15px 15px 15px;
+}
+
+.sub-tag {
+  background-color: #f2f2f2;
+  height: 100px;
+  padding: 10px 0 0 0;
+}
+
+.sub-tag .list  {
+  background-color: #aaaaaa;
+  height: 15px;
+  width: 80%;
+  margin: 5px 5px 5px 18px;
+}
+
+article {
+  font-size: 13pt;
+  background-color: white;
+  margin: 0 0 0 0;
+  padding: 1px 15px 10px 15px;
+}
+
+article hr {
+  color: #b7b7b7;
+}
+
+article header, .detail {
+  color: #b7b7b7;
+  font-size: 14pt;
+}
+
+article header h1 {
+  font-size: 30pt;
+  color: black
+}
+
+.text {
+  background-color: #F2F2F2;
+  padding: 5px 15px 5px 15px;
+  margin: 0 0 20px 0;
+}
+
+.text p {
+  background-color: #aaaaaa;
+  height: 15px;
+}
+
+.right {
+  margin-left: 5px;
+}
+
+.ads {
+  margin: 20px 0 0 0;
+  color: #aaaaaa;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  margin: 10px 0 0 0;
+}
+
+.newsletter {
+  margin: 30px 0 0 0;
+  height: 300px;
+  background-color: #F8F8F8;
+  padding: 15px 10px 10px 10px;
+}
+
+.newsletter .search {
+  margin: 20px 0 30px 30px;
+}
+
+.newsletter .search .col-8 {
+  height: 38px;
+  width: 280px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.newsletter .search .col-2 {
+  background-color: #aaaaaa;
+  width: 70px;
+  height: 38px;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-left: -5px;
+}
+
+.newsletter .head {
+  width: 100%;
+  height: 20px;
+  background-color: #aaaaaa;
+}
+
+
+.newsletter .text {
+  margin: 10px 0 0 0;
+  background-color: #aaaaaa;
+}
+
+.short {
+  width: 50%;
+}
+
+.book-list {
+  background-color: #F8F8F8;
+  margin: 50px 0 20px 0;
+  padding: 5px 10px 15px 10px;
+}
+
+.book .text {
+  width: 250px;
+  margin: 20px 0 0 20px;
+}
+
+.book .image {
+  width: 150px;
+}
+
+.book .text p {
+  height: 10px;
 }
